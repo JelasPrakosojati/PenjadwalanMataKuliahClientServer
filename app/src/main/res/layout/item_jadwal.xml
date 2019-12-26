@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/box_linear"
+    android:padding="10dp"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/ruang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GIK L1A"
+                android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/hari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Senin"/>
+
+        <TextView
+            android:id="@+id/jammulai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="09:20:00"/>
+
+        <TextView
+            android:id="@+id/jamakhir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="11:00:00"/>
+
+        <TextView
+            android:id="@+id/matakuliah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Proyek Khusus"/>
+
+        <TextView
+            android:id="@+id/dosen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Anie Rose Irawati, ST, M.Cs."/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

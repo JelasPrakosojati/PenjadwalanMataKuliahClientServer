@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clientserver.penjadwalanmatakuliah">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.clientserver.penjadwalanmatakuliah.Util.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/icl_cs"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.MainActivity"/>
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.InsertJ"/>
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.InsertM"/>
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.InsertD"/>
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.DeleteJ"/>
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.DeleteM"/>
+        <activity android:name="com.clientserver.penjadwalanmatakuliah.DeleteD"/>
+    </application>
+
+</manifest>
